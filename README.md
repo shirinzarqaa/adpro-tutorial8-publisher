@@ -8,3 +8,8 @@ Hal ini berarti program subscriber dan publisher terkoneksi dengan message broke
 
 **Screen of running RabbitMQ**
 ![RabbitMQ](image.png)
+
+**Screenshot terminal subscriber yang telah berhasil menerima 5 even message**
+![alt text](image-2.png)
+**Screenshot terminal publisher yang telah berhasil menjalankan `cargo run` untuk mengirim 5 event**
+![alt text](image-1.png)

@@ -13,3 +13,6 @@ Hal ini berarti program subscriber dan publisher terkoneksi dengan message broke
 ![alt text](image-2.png)
 **Screenshot terminal publisher yang telah berhasil menjalankan `cargo run` untuk mengirim 5 event**
 ![alt text](image-1.png)
+
+**Screenshot interface RbbitMQ dimana ada spike pada message rates karena publisher di run berkali-kali**
+![alt text](image-3.png)

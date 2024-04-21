@@ -16,3 +16,7 @@ Hal ini berarti program subscriber dan publisher terkoneksi dengan message broke
 
 **Screenshot interface RbbitMQ dimana ada spike pada message rates karena publisher di run berkali-kali**
 ![alt text](image-3.png)
+
+**hal-hal yan perlu di improve dari kode tersebut.**
+- Duplikasi kode pada metode publish_event yang di panggil beberapa kali sehingga bisa diganti dengan suatu fungsi atau loop.
+- metode get_handler_action yang belum di implementasikan.
